@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+    color: #333;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    background: white;
+    position: sticky;
+    top: 0;
+}
+
+.header nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.header nav a:hover {
+    color: #0aa;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(0,150,150,0.85), rgba(0,150,150,0.85)),
+                url("https://images.unsplash.com/photo-1524995997946-a1c2e315a42f");
+    background-size: cover;
+    padding: 100px 60px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero h1 span {
+    color: #ffc107;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    background: #ffc107;
+    color: black;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* STATS */
+.stats {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.stats div strong {
+    font-size: 26px;
+    display: block;
+}
+
+.stats div span {
+    font-size: 14px;
+}
+
+/* BOOKS */
+.books {
+    padding: 60px;
+    text-align: center;
+}
+
+.book-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.book-card {
+    background: white;
+    padding: 25px;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.book-card button {
+    margin-top: 15px;
+    padding: 8px 15px;
+    border: none;
+    background: #0aa;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ABOUT + CONTACT */
+.about, .contact {
+    padding: 60px;
+    background: white;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* FOOTER */
+.footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+.btn-detail {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 18px;
+    background: #0aa;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.btn-detail:hover {
+    background: #088;
+}
+.book-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
